@@ -7,13 +7,41 @@
 </head>
 
 <body>
-    
-    <button id="scissors">scissors</button>
-    <button id="paper">paper</button>
-    <button id="rock">rock</button>
 
-    <div id="container"></div>
-    
+    <div class=header-container>
+        <span>Let's play a little game</span>
+    </div>
+
+    <div class="selections">
+        <button class="selectbtn" , data-selection="rock">Rock ✊</button>
+        <button class="selectbtn" , data-selection="paper">Paper ✋</button>
+        <button class="selectbtn" , data-selection="scissors">Scissors ✌</button>
+    </div>
+
+    <div class="results">
+        <div class="player-container">
+            You:
+            <span class="player-score">0</span>
+            <li class="list-item">You choose:
+                <span class="player-choice"></span>
+            </li>
+
+
+        </div>
+        <div>
+            Computer:
+            <span class="computer-score">0</span>
+            <li class="list-item">Computer choose:
+                <span class="comp-choice"></span>
+            </li>
+        </div>
+
+        <div class="round-result"></div>
+
+    </div>
 </body>
 <script src="rockpaperscissors.js" defer></script>
+
 </html>
+
+<!-- ✊ ✋ ✌-->
